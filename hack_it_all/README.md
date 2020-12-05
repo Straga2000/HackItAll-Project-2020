@@ -41,5 +41,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 ## Dependencies
-`react-router`\
+
+Here is a list of all the dependencies added to this project:
+
+`react-router`
+`react-router-dom`
 `react-draggable`

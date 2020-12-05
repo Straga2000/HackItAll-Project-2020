@@ -39,7 +39,7 @@ export default class App extends Component {
         return (
                 <div className={"App no-mg-pd"}>
                     <h1 className={"no-mg-pd"}>Hello</h1>
-                    <Gallery info={this.state}/>
+                    {/*<Gallery info={this.state}/>*/}
                     {/*<Profile/>*/}
                 </div>
             // <Router>
