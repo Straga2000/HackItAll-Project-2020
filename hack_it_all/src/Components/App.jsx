@@ -5,6 +5,7 @@ import  {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import '../Styles/App.css';
 import Gallery from "./Gallery";
 import Profile from "./Profile";
+import Panel from "./Panel";
 
 // import fs from 'fs';
 //const files = require.context('./', true, /\.(svg|png)$/igm);
@@ -16,6 +17,7 @@ import SignupPage from './SignupPage';
 import ForgotPass from './ForgotPassPage';
 import ProfileConsumerPage from './ProfileConsumerPage';
 import ProfileSellerPage from './ProfileSellerPage';*/
+
 
 // function listAll() {
 //     const testFolder = '../Components';
@@ -41,6 +43,7 @@ export default class App extends Component {
                     <h1 className={"no-mg-pd"}>Hello</h1>
                     {/*<Gallery info={this.state}/>*/}
                     {/*<Profile/>*/}
+                    <Panel></Panel>
                 </div>
             // <Router>
             //     <Switch>
