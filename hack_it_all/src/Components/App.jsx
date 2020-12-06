@@ -36,14 +36,18 @@ export default class App extends Component {
                 ],
         photoHeight: "250px"
     };
-
+new_note = () => {
+    return (<Panel/>);
+}
     render() {
         return (
                 <div className={"App no-mg-pd"}>
-                    <h1 className={"no-mg-pd"}>Hello</h1>
                     {/*<Gallery info={this.state}/>*/}
                     {/*<Profile/>*/}
-                    <Panel></Panel>
+                    <button className="btn btn-success" onClick={this.new_note}>
+                      Click
+                    </button>
+
                 </div>
             // <Router>
             //     <Switch>

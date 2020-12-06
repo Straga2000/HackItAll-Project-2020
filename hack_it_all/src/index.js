@@ -9,7 +9,7 @@ import './Styles/index.css';
 
 ///IMPORT MAIN-APP COMPONENT
 import App from './Components/App';
-
+/////////////
 ///RENDER MAIN ELEMENT
 ReactDOM.render(
     <App/>,
